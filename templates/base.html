@@ -1,9 +1,8 @@
-
 <!doctype html>
 <html>
     <head>
         <title>{{title}}</title>
-        <style>
+        <style type="text/css">
             .error {
                 color: red;
             }
@@ -12,15 +11,14 @@
 <body>
 
     <div>
-        <a href='/blog'>Main Blog Page</a>
+        <a href="/">Main Blog Page</a>
+        &nbsp;
+        <a href="/add">Add a Blog Entry</a>
     </div>
-    
-    <div>
-        <a href='/newpost'>Add a Blog Entry</a>
-    </div>
-
     {% block content %}
     {% endblock %}
+
+
 
 </body>
 </html>
